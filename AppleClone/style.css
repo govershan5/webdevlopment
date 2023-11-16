@@ -1,0 +1,338 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page>nav{
+    position: absolute;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    top: 0%;
+    color: #fff;
+     left: 50%;
+     transform: translateX(-50%);
+    height: 8vh;
+
+}
+#page>nav>button{
+    border-radius: 70px;
+   padding: 10px 25px;
+   border: none;
+}
+
+#page>video{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#bottompage{
+    height: 20%;
+    width:25% ;
+   justify-content: center;
+   position: absolute;
+   left: 50%;
+   flex-direction: column;
+   display: flex;
+   bottom: 5%;
+   align-items: center;
+   transform: translateX(-50%);
+}
+#bottompage>h3{
+    color: #dadada;
+    margin-bottom: 1vh;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    color: white;
+}
+#page1>video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#page1>h1{
+  
+    font-size: 3.5vw;
+    font-weight: 800;
+    left: 25%;
+top:60%;    position: absolute;
+    transform: rotateX(-50%);
+    white-space:nowrap;
+}
+#page2{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#page2>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page2>h1{
+    transform: rotateX('-50%');
+    left:25%;
+    font-size: 4vw;
+    position: absolute;
+    color: #fff;
+    justify-content: center;
+   top: 60%;
+   white-space:nowrap;
+}
+#page3{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#page3>img{
+    width: 60%;
+    left: 50%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%,-50%);
+
+}
+#pageupper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#pageupper>img{
+    width: 30vw;
+    height: 5vh;
+    top: 5%;
+    position: absolute;
+    align-items: center;
+    left: 40%;
+    transform: rotateX('-50%');
+    
+}
+
+#pageupperinner{
+    width: 40%;
+    height: 30vh;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: #ff823d;
+    transform: rotateX(-50%);
+
+    padding: 0px 20px;
+}
+#pagelowerinner{
+    width: 40%;
+    font-size: 20px;
+    height: 25vh;
+    position: absolute;
+    top: 18%;
+    left: 42%;
+    align-items: center;
+    transform: rotateX(-50%);
+    justify-content: space-between;
+    display: flex;
+    color:grey;
+    padding: 0px 20px;
+}
+#page3>button{
+    position: absolute;
+    left: 45%;
+    transform: rotateX('-50%');
+    bottom: 4%;
+    padding: 5px 20px;
+    width: 20vw;
+    border-radius: 10vw;
+    scale: 1.5;
+}
+#page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page4>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-page4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+#page5{
+    background-color: #f5f5f7;
+}
+#page5>canvas{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+    z-index: 99;
+}
+#page6{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page7>h3{
+  left: 5%;
+    width: 20%;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    color: grey;
+}
+#page7>h3>span{
+    color: black;
+}
+
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page8>h3{
+    right: 5%;
+      width: 20%;
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      color: grey;
+  }
+  #page8>h3>span{
+      color: black;
+  }
+
+#page9{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page9>h3{
+    left: 5%;
+      width: 20%;
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      color: grey;
+  }
+  #page9>h3>span{
+      color: black;
+  }
+  
+#page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page10>h3{
+    right: 5%;
+      width: 20%;
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      color: grey;
+  }
+  #page10>h3>span{
+      color: black;
+  }
+  
+#page11{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page11>h3{
+    left: 5%;
+      width: 20%;
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      color: grey;
+  }
+  #page11>h3>span{
+      color: black;
+  }
+  
+#page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page12>h3{
+    right: 5%;
+      width: 20%;
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      color: grey;
+  }
+  #page12>h3>span{
+      color: black;
+  }
+  #page13{
+    position: relative;
+    width: 100vw;
+    justify-content: space-around;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  #left{
+    width: 45%;
+    height: 90%;
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+
+}
+  #right{
+    width: 45%;
+    height: 90%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+
+    background-size: cover;
+  }
